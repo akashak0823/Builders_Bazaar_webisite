@@ -13,7 +13,7 @@ export const CatalogPage = () => {
     useEffect(() => {
         // Fetch products from our backend
         // Note: Check port configuration, assuming 5001 based on server setup
-        axios.get('http://localhost:5001/api/products')
+        axios.get('https://builders-bazaar-webisite.onrender.com/api/products')
             .then(res => {
                 setProducts(res.data);
                 setLoading(false);
@@ -80,3 +80,4 @@ export const CatalogPage = () => {
         </div>
     );
 };
+
