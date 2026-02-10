@@ -21,7 +21,7 @@ export const LeadershipSection = () => {
             <div className="relative box-border caret-transparent basis-auto shrink max-w-none min-h-px w-full px-[15px] md:basis-full md:shrink-0 md:max-w-full">
                 <div className="box-border caret-transparent mb-6">
                     <img
-                        src="/public/Assets/1.jpg"
+                        src="/Assets/1.jpg"
                         alt="Creating a brighter future"
                         className="box-border caret-transparent w-full h-auto max-h-[600px] object-cover"
                     />
@@ -55,3 +55,4 @@ export const LeadershipSection = () => {
         </div>
     );
 };
+
