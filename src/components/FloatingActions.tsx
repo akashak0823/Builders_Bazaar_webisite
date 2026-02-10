@@ -63,7 +63,7 @@ export const FloatingActions = () => {
                     aria-label="Chatbot"
                 >
                     <img
-                        src="public/07baed84752da66c94333e268dc15ffc.gif"
+                        src="/07baed84752da66c94333e268dc15ffc.gif"
                         alt="Chat Assistant"
                         className="w-full h-full object-cover"
                     />
@@ -72,3 +72,4 @@ export const FloatingActions = () => {
         </div>
     );
 };
+
