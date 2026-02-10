@@ -18,7 +18,7 @@ export const AboutUsSection = () => {
                     </div>
                     <div className="w-full md:w-1/2 px-[15px]">
                         <img
-                            src="/public/about.jpg"
+                            src="/about.jpg"
                             alt="About Builders Bazaar"
                             className="w-full h-auto max-h-[500px] object-contain mx-auto"
                         />
@@ -28,3 +28,4 @@ export const AboutUsSection = () => {
         </section>
     );
 };
+
