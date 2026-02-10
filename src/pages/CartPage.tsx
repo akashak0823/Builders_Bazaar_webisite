@@ -22,7 +22,7 @@ export const CartPage = () => {
         setSubmitting(true);
 
         try {
-            await axios.post('https://builders-bazaar-webisite.onrender.com/api/inquire', {
+            await axios.post('http://localhost:5001/api/inquire', {
                 customerName: formData.name,
                 customerPhone: formData.phone,
                 customerEmail: formData.email,
@@ -179,4 +179,3 @@ export const CartPage = () => {
         </div>
     );
 };
-
