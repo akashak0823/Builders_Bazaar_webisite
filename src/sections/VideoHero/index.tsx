@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 
 const images = [
-    "/public/Assets/2.jpg",
-    "/public/Assets/3.jpg",
-    "/public/Assets/4.jpg",
+    "/Assets/2.jpg",
+    "/Assets/3.jpg",
+    "/Assets/4.jpg",
 ];
 
 export const VideoHero = () => {
@@ -36,3 +36,4 @@ export const VideoHero = () => {
         </section>
     );
 };
+
